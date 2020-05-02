@@ -1,4 +1,7 @@
 # Streaming-Documentacion
+
+![icono](./icon.jpg)
+
 https://github.com/nicolastpi01/Streaming-Documentacion.git
 
 ## Objetivo
