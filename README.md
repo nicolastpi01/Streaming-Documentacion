@@ -1,6 +1,6 @@
 # Streaming-Documentacion
 
-![icono](./icon.jpg)
+![icono](./icon.png)
 
 https://github.com/nicolastpi01/Streaming-Documentacion.git
 
