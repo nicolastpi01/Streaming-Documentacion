@@ -20,8 +20,17 @@ Se uso Visual Studio 2019 Community
 
 Además por comodidad se incluyo la libreria 'DotNetEnv@1.4.0' para la lectura de ficheros de configuración .env
 
-La base de datos elegida fue MySql, para ello se uso el conector de Pomelo@3.1, porque se perdio parte del soporte por Oracle.
+El motor de base de datos elegido fue MySql, para ello se uso el conector de Pomelo@3.1, porque se perdio parte del soporte por Oracle.
 En caso de querer cambiarla, cambiar el conector usado en el <a href="https://github.com/nicolastpi01/Streaming-Backend/blob/master/Streaming/Startup.cs" title="Repositorio de la Documentacion"> Startup.cs</a>.
+
+Para correrlo se debe generar la base de datos utilizando EF Core con los comandos
+
+<code>
+dotnet ef Migrations Add <nombre>
+dotnet ef database update
+</code>
+
+Esto creara las tablas vacias para su consumo.
 
 ## Streaming-Frontend
 Clonar Repo https://github.com/nicolastpi01/Streaming-Frontend.git
